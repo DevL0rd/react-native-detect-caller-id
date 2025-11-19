@@ -3,7 +3,7 @@
   "version": "1.8.0",
   "description": "Module for detecting caller id by provided callers list",
   "main": "index.js",
-  "homepage": "https://github.com/YesSkyscrapers/react-native-detect-caller-id.git",
+  "homepage": "https://github.com/DevL0rd/react-native-detect-caller-id",
   "files": [
     "README.md",
     "android",
@@ -16,25 +16,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YesSkyscrapers/react-native-detect-caller-id.git",
-    "baseUrl": "https://github.com/YesSkyscrapers/react-native-detect-caller-id"
+    "url": "git+https://github.com/DevL0rd/react-native-detect-caller-id.git",
+    "baseUrl": "https://github.com/DevL0rd/react-native-detect-caller-id"
   },
   "keywords": [
     "react-native"
   ],
   "author": {
-    "name": "yesskyscrapers",
-    "email": "yes.skyscrapers@gmail.com"
+    "name": "DevL0rd",
+    "email": "devl0rd@gmail.com"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "peerDependencies": {
-    "react": "^16.8.1",
+    "react": ">=16.0.0 <20.0.0",
     "react-native": ">=0.60.0-rc.0 <1.0.x"
   },
   "devDependencies": {
-    "react": "^16.9.0",
-    "react-native": "^0.61.5"
+    "react": "^19.0.0",
+    "react-native": "^0.79.3"
   }
 }
