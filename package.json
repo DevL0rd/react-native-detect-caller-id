@@ -1,5 +1,5 @@
 {
-  "name": "react-native-detect-caller-id",
+  "name": "@devl0rd/react-native-detect-caller-id",
   "version": "1.8.1",
   "description": "Module for detecting caller id by provided callers list",
   "main": "index.js",

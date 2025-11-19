@@ -27,13 +27,13 @@ With this library you can simple add CallerID for your React-Native Apps. For iO
 Using Yarn
 
 ```sh
-yarn add react-native-detect-caller-id
+yarn add @devl0rd/react-native-detect-caller-id
 ```
 
 Using npm
 
 ```sh
-npm install react-native-detect-caller-id --save
+npm install @devl0rd/react-native-detect-caller-id --save
 ```
 
 ### iOS
@@ -81,7 +81,7 @@ ImageView with id `appIcon` will get drawable with your app default icon.
 ## Basic Usage
 
 ```javascript
-import CallerDetector from 'react-native-detect-caller-id';
+import CallerDetector from '@devl0rd/react-native-detect-caller-id';
 
 // Check required permissions for your platform
 checkPermissions = async () => {
