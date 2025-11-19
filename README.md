@@ -1,10 +1,25 @@
 <p align="center">
-  <img src="https://yesskyscrapers.github.io/app4t2site/reactnativedetectcalleridImage.png" alt="Cover" title="React Native Detect CallerID" width="800">
+    <a href="https://www.npmjs.com/package/@devl0rd/react-native-detect-caller-id">
+        <img src="https://img.shields.io/npm/v/%40devl0rd%2Freact-native-detect-caller-id.svg" alt="npm version" />
+    </a>
 </p>
 
-React Native Detect CallerID implements [Broadcast Receiver](https://developer.android.com/guide/components/broadcasts) (Android) and [CallKit: Call Directory Extension](https://developer.apple.com/documentation/callkit/cxcalldirectoryextensioncontext) (iOS). 
+<p align="center">
+    <img src="https://yesskyscrapers.github.io/app4t2site/reactnativedetectcalleridImage.png" alt="Cover" title="React Native Detect CallerID" width="800">
+</p>
 
-With this library you can simple add CallerID for your React-Native Apps. For iOS library provides additional information on calling screen. For android library render additional layout with your information about incoming phone number. 
+> **Fork & Maintenance Notice**  
+> This package is a community-maintained fork of the original
+> [`react-native-detect-caller-id`](https://github.com/YesSkyscrapers/react-native-detect-caller-id)
+> by **@YesSkyscrapers**. The original repository appears to be
+> unmaintained at the moment; this fork by **@DevL0rd** aims to keep it
+> working with modern React and React Native versions, fix bugs, and
+> accept contributions until/if the original author returns and resumes
+> active maintenance.
+
+React Native Detect CallerID implements [Broadcast Receiver](https://developer.android.com/guide/components/broadcasts) (Android) and [CallKit: Call Directory Extension](https://developer.apple.com/documentation/callkit/cxcalldirectoryextensioncontext) (iOS).
+
+With this library you can simply add CallerID for your React Native apps. For iOS the library provides additional information on the calling screen. For Android the library renders an additional layout with your information about the incoming phone number.
 
 <hr/>
 
@@ -274,4 +289,11 @@ Setting callerlist for detecting. For 10k nubmers its takes average 1 min for io
     let result = await CallerDetector.setCallerList(callers)
     console.log(result);
 ```
+
+## Maintainer & Status
+
+- **Original author:** [@YesSkyscrapers](https://github.com/YesSkyscrapers)
+- **Fork maintainer:** [@DevL0rd](https://github.com/DevL0rd)
+- **Status:** Actively maintained fork while the original repository appears inactive. Issues and pull requests are welcome in this fork.
+
 
