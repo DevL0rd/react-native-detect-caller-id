@@ -1,7 +1,6 @@
 {
   "name": "react-native-detect-caller-id",
   "version": "1.8.1",
-
   "description": "Module for detecting caller id by provided callers list",
   "main": "index.js",
   "homepage": "https://github.com/DevL0rd/react-native-detect-caller-id",
